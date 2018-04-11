@@ -1,7 +1,7 @@
 {
-  "name": "emailjs-mime-parser",
+  "name": "@hola.org/emailjs-mime-parser",
   "version": "2.0.4",
-  "homepage": "https://github.com/emailjs/emailjs-mime-parser",
+  "homepage": "https://github.com/hola/emailjs-mime-parser",
   "description": "Parse a mime tree, no magic included.",
   "author": "Andris Reinman <andris@kreata.ee>",
   "keywords": [
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/emailjs/emailjs-mime-parser.git"
+    "url": "git://github.com/hola/emailjs-mime-parser.git"
   },
   "main": "dist/mimeparser",
   "dependencies": {
