@@ -200,6 +200,10 @@ export default class MimeNode {
       this.charset = this.contentType.params.charset
     }
 
+    if (!this.charset && this.contentType.type !== 'text') {
+      this.charset = 'binary'
+    }
+
     if (this.contentType.type === 'multipart' && this.contentType.params.boundary) {
       this.childNodes = []
       this._isMultipart = (this.contentType.value.split('/').pop() || 'mixed')
